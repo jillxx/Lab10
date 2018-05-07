@@ -1,3 +1,12 @@
+/*            *             ====================================================                                                                                                            ***                      ====================================================
+*            ***            # Name: Jiao Xu
+*           *****           # Date: 5/4/2018
+*            ***            # Project Name: Lab 10
+*             *             # Description: Here is my Movie List program.
+*                           ====================================================
+ */
+
+
 package com.movie.gc;
 
 import java.util.ArrayList;

@@ -1,7 +1,5 @@
 package com.movie.gc;
 
-import java.util.ArrayList;
-
 public class Movie {
 
 	private String title;
@@ -12,8 +10,6 @@ public class Movie {
 		this.title = title;
 		this.category = category;
 	}
-
-
 
 	public String getTitle() {
 		return title;
@@ -30,19 +26,5 @@ public class Movie {
 	public void setCategory(String category) {
 		this.category = category;
 	}
-
-	public int compareToIgnoreCase(String input) {
-		int titleCompare = getTitle().compareTo(input);
-		if (titleCompare != 0) {
-			return titleCompare;
-		} else {
-			return category.compareToIgnoreCase(input);
-		}
-	}
-
-	 @Override
-	 public String toString() {
-	 return "Movie [title=" + title + ", category=" + category + "]";
-	 }
 
 }
